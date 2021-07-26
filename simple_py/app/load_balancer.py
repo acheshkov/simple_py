@@ -15,7 +15,6 @@ class LoadBalancer:
             return False
         else:
             self.url_set.add(url)
-            # self.capacity += 1
             print('New length is {}'.format(len(self.url_set)))
             return True
 
