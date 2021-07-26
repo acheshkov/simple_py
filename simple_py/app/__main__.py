@@ -1,4 +1,6 @@
-import load_balancer
+def main():
+    print('app loaded.')
+
 
 if __name__ == '__main__':
-    load_balancer.LoadBalancer()
+    main()
