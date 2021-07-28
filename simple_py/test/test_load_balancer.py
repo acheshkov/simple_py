@@ -12,5 +12,6 @@ class TestLoadBalancer(unittest.TestCase):
         self.assertFalse(lb.register_url("url3"))
         print("Test OK")
 
+
 if __name__ == '__main__':
     unittest.main()
