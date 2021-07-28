@@ -1,6 +1,6 @@
 import unittest
 
-import load_balancer
+from app import load_balancer
 
 
 class LoadBalancerAdd(unittest.TestCase):
